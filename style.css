@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+nav{
+    align-items: center;
+    background-color:#e76d0d;
+    display:flex;
+    height: 60px;
+    justify-content: space-evenly;
+}
+nav a{
+    color: aliceblue;
+    font-size: 20pt;
+    font-family: 'Neucha', cursive;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(https://store-images.s-microsoft.com/image/apps.21512.67608231327735149.580cd5a5-bd90-4a2e-a3cc-61b89be5868a.5924a2fc-7bdc-4a64-9416-9c7b77b7c1a4?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF);
+    background-size: cover;
+    height: 400px;
+}
+section {
+    background-color: #fbb97b;
+    display: flex;
+    font-family: 'Handlee', cursive;
+    font-size: 15pt;
+    justify-content: space-evenly;
+}
+section div{
+    text-align: center;
+    width: 40%;
+}
+h2{
+    font-family: font-family: 'Gloria Hallelujah', cursive;
+    font-size:30pt;
+}
+div ul {
+    list-style-image: url(https://drive.google.com/thumbnail?id=1RP5037zLceukbah8wucFE7arLdRDX8oH&authuser=0&sz=w1349-h608);
+}
+ul li:nth-child(odd){
+    color: blanchedalmond;
+}
+input::placeholder{
+    font-family:'Neucha', cursive;
+}
+input:focus{
+    background-color: #f38531;
+    width: 150px;
+    height: 20px;
+}
+
+footer{
+    height: 100px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .Icones{
+    background-color: #e76d0d;
+    height: 50%;
+}
